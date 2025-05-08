@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0074D9;
+    color: white;
+    padding: 20px;
+}
+
+.carrusel {
+    position: relative;
+    max-width: 600px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.imagenes img {
+    display: none;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.imagenes img.activo {
+    display: block;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}

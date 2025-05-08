@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel de Imágenes</title>
+    <link rel="stylesheet" href="carrusel.css">
+</head>
+<body>
+    <header>
+        <h1>Carrusel Interactivo de Imágenes</h1>
+    </header>
+    <div class="carrusel">
+        <button class="prev" onclick="cambiarImagen(-1)">&#10094;</button>
+        <div class="imagenes">
+            <img src="C:\Users\usuariocc10\Desktop\PROYECTO_JS\images.jpg" alt="Imagen 1" class="activo">
+            <img src="C:\Users\usuariocc10\Desktop\PROYECTO_JS\images (1).jpg" alt="Imagen 2">
+            <img src="C:\Users\usuariocc10\Desktop\PROYECTO_JS\Imagen-6.png" alt="Imagen 3">
+            <img src="C:\Users\usuariocc10\Desktop\PROYECTO_JS\imagen 6.jpg"alt="Imagen 4">
+            <img src="C:\Users\usuariocc10\Desktop\PROYECTO_JS\imagen 5.jpg"alt="Imagen 5">
+            <img src="C:\Users\usuariocc10\Desktop\PROYECTO_JS\imagen 3.jpg" alt="Imagen 6">
+        </div>
+        <button class="next" onclick="cambiarImagen(1)">&#10095;</button>
+    </div>
+    <script src="carrusel.js"></script>
+</body>
+</html>
