@@ -1,0 +1,33 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f8f4f4;
+    color: #5c3d2e;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    color: #8b6c5c;
+}
+
+.infografia {
+    border: 2px solid #d5b9b2;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px #c7a89f;
+    max-width: 600px;
+    margin: auto;
+}
+
+button {
+    background-color: #d5b9b2;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
